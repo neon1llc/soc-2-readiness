@@ -3,11 +3,11 @@ title: Facilitator guide
 description: "Teach the SOC 2 Readiness course as a half-day workshop or a two-day intensive, with timings, materials, and the exercises that work best in a room."
 ---
 
-**Audience:** founders, operators, security owners, and engineering leads at companies preparing for a first SOC 2 report. Groups of 4 to 20 work best, ideally two or three people from each company so they can work on their own material together.
+**Audience:** founders, operators, security owners, and engineering leads preparing for a first SOC 2 report. Groups of 4 to 20 work best, with two or three people from each company.
 
-**You'll need:** a projector, printed copies of the [controls map](../controls/controls-map.md) and [evidence checklists](../evidence/index.md), laptops for each company team, and the [templates](../templates/index.md) shared ahead of time.
+**You'll need:** a projector, printed copies of the [controls map](../controls/controls-map.md) and [evidence checklists](../evidence/index.md), a laptop for each company team, and the [templates](../templates/index.md) shared ahead of time.
 
-**Tone:** practical. Cost and paperwork are the usual concerns, so show teams how much of the work they already do.
+**Tone:** practical. Cost and paperwork are the usual worries, so show teams how much they already do.
 
 ## Half-day format (4 hours)
 
@@ -26,7 +26,7 @@ description: "Teach the SOC 2 Readiness course as a half-day workshop or a two-d
 
 ## Two-day format
 
-Day one covers modules 1 to 4 with the full exercises, ending with each team's own controls list. Day two covers modules 5 to 8: teams draft their access control policy, fill the evidence tracker for one area, run a 30-minute tabletop, and role-play an auditor walkthrough of one control.
+Day one covers modules 1 to 4 with the full exercises, ending with each team's own controls list. Day two covers modules 5 to 8: teams draft an access control policy, fill the evidence tracker for one area, run a 30-minute tabletop, and role-play an auditor walkthrough of one control.
 
 ## Exercises that work well in a room
 
@@ -37,13 +37,13 @@ Day one covers modules 1 to 4 with the full exercises, ending with each team's o
 
 ## Common questions
 
-- *Do we need a compliance platform?* No. It can save time on evidence collection once you have controls, but it can't decide your scope or run your access reviews. Start with this course and a spreadsheet, and buy a platform later if the evidence load justifies it.
-- *How much does the audit cost?* It varies widely by firm, scope, and report type. Get at least three quotes.
+- *Do we need a compliance platform?* No. It can save time collecting evidence once you have controls, but it can't decide your scope or run your access reviews. Start with this course and a spreadsheet, and buy a platform later if the evidence load justifies it.
+- *How much does the audit cost?* It varies by firm, scope, and report type. Get at least three quotes.
 - *Can we do it without a security person?* Yes, with a named owner who has real time. An operations or engineering lead can run a first report.
 
 ## After the workshop
 
-Send each team the links to the course, their marked-up controls list, and a reminder of the date they named. A short check-in at 30 days helps most teams keep going.
+Send each team the course links, their marked-up controls list, and the date they named. A check-in at 30 days helps teams keep going.
 
 ## Sources
 

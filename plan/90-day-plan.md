@@ -3,7 +3,7 @@ title: The 90-day readiness plan
 description: "Thirteen weeks from kickoff to a running control set, ready for a readiness assessment and the start of an observation window."
 ---
 
-This plan assumes one owner with about eight hours a week, help from engineering and the people lead, and a company that already uses a cloud provider, an identity provider, and code review. If you're missing those basics, add a month.
+This plan assumes one owner with about eight hours a week, help from engineering and the people lead, and a company that already uses a cloud provider, an identity provider, and code review. If you're missing those, add a month.
 
 | Weeks | Focus | Module | Done when |
 |---|---|---|---|
@@ -29,4 +29,4 @@ This plan assumes one owner with about eight hours a week, help from engineering
 - Controls are being written for what you plan to do "someday."
 - Evidence lives in personal inboxes and chat threads.
 
-If you see these, cut scope or move the date. Both are better than starting a window you can't finish.
+If you see these, cut scope or move the date. Both beat starting a window you can't finish.
