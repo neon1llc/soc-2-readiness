@@ -7,9 +7,9 @@ description: "Choose the system, the criteria, the people, and the vendors your 
 
 ## Scope is a product decision
 
-Your report describes one **system**: the service your customers buy, plus the people, processes, software, infrastructure, and data that deliver it. Everything inside the boundary gets tested. Everything outside doesn't, but customers will notice what you left out.
+Your report describes one **system**: the service your customers buy, plus the people, processes, software, infrastructure, and data that deliver it. Everything inside the boundary gets tested. Customers will notice what you leave outside.
 
-Keep scope as small as the customer's need allows. A first report on the one product customers ask about is better than a stalled report on everything you own.
+Keep scope as small as the customer's need allows. A first report on the one product customers ask about beats a stalled report on everything you own.
 
 ## The four parts of scope
 
@@ -24,14 +24,14 @@ Keep scope as small as the customer's need allows. A first report on the one pro
 
 ## Vendors you rely on
 
-Your cloud provider runs the data center, and you can't audit it. The report handles this in one of two ways:
+You can't audit your cloud provider's data center. The report handles this in one of two ways:
 
 - **Carve-out** (most common): the report names the provider as a **subservice organization**, says which of its controls you rely on, and points to its own SOC report. You review that report each year (control [VEN-01](../controls/controls-map.md#vendors)).
 - **Inclusive:** the provider's controls are tested as part of your report. This is rare and needs the provider's cooperation.
 
 Every vendor SOC report lists **complementary user entity controls**: things the vendor expects *you* to do, such as turning on two-step sign-in for your admin accounts. Your own report has to show you do them (control [VEN-03](../controls/controls-map.md#vendors)).
 
-Your own report will list complementary controls for *your* customers, too, such as "customers manage who in their company has access." Start that list now.
+Your report will list complementary controls for *your* customers too, such as "customers manage who in their company has access." Start that list now.
 
 ## Exercise: write the scope statement
 

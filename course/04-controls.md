@@ -7,7 +7,7 @@ description: "Turn the starter controls map into your own list: testable stateme
 
 ## What a control is
 
-A control is something the company does, on a schedule or on every event, that leaves a record. It says who does what, how often, and what record it leaves. A good one reads like this:
+A control is something the company does, on a schedule or on every event, that leaves a record. A good one reads like this:
 
 > System owners review who has access to each production system every quarter, remove access that's no longer needed, and record the review in a signed ticket.
 
@@ -20,19 +20,19 @@ It has four parts:
 | **Frequency** | Every quarter |
 | **Evidence** | A signed ticket |
 
-A weak one reads like "Access is reviewed regularly." Who reviews? How often is regularly? What proves it happened? An auditor will ask all three, and if the answers change from quarter to quarter you'll get an exception.
+A weak one reads "Access is reviewed regularly." Who reviews? How often? What proves it happened? An auditor will ask all three, and answers that change from quarter to quarter produce an exception.
 
 ## Automated and manual controls
 
-**Automated** controls are enforced by a system, such as branch protection requiring a reviewer or a device management tool enforcing disk encryption. They're tested once for design and then by looking at settings and a sample. They rarely fail if nobody changes the setting.
+**Automated** controls are enforced by a system, such as branch protection requiring a reviewer or device management enforcing disk encryption. The auditor tests the design once, then checks settings and a sample. They rarely fail unless someone changes the setting.
 
-**Manual** controls depend on a person remembering, such as quarterly access reviews or yearly vendor reviews. They fail far more often, usually because the owner was on vacation or left. Keep manual controls few, put them on a shared calendar, and give each one a backup owner.
+**Manual** controls depend on a person remembering, such as quarterly access reviews or yearly vendor reviews. They fail far more often, usually because the owner was away or left. Keep them few, put them on a shared calendar, and give each a backup owner.
 
 ## Cutting the map down
 
-The [controls map](../controls/controls-map.md) has 44 starter controls. Expect to keep most of them, rewritten in your own words, and cut the ones that don't fit. Go through each row and ask:
+The [controls map](../controls/controls-map.md) has 44 starter controls. Expect to keep most, rewritten in your own words, and cut the rest. For each row, ask:
 
-1. **Do we do this today?** If yes, rewrite it to match exactly what you do, not what the template says.
+1. **Do we do this today?** If yes, rewrite it to match what you do, not what the template says.
 2. **If not, should we?** Check your risk register. If a high risk depends on it, plan to start. If not, and no criterion goes uncovered without it, cut it.
 3. **Can we keep doing it for the whole observation window?** If the honest answer is "probably not," make it simpler or automate it.
 4. **Does it leave proof without extra work?** Prefer controls whose evidence is a system log or a ticket you'd create anyway.
@@ -42,7 +42,7 @@ After cutting, rebuild the coverage table (`node tools/build-map.mjs` if you're 
 > [!WARNING]
 > **Don't overpromise**
 >
-> Every control you write becomes a test. A control that says "monthly" and runs quarterly is an exception, even if quarterly is perfectly secure. Write what you will do, then do it.
+> Every control you write becomes a test. A control that says "monthly" and runs quarterly is an exception, even if quarterly is secure. Write what you will do, then do it.
 
 ## Exercise: your controls list
 

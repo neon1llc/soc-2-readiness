@@ -7,7 +7,7 @@ description: "Keep controls running through the observation window and beyond: a
 
 ## The window is the test
 
-During a Type II observation window, every control has to run every time. The work isn't hard, but it's easy to forget, and the people who set it up move on. Treat compliance as operations: scheduled, owned, and visible.
+During a Type II observation window, every control has to run every time. The work is easy to forget, and the people who set it up move on. Schedule it, give it an owner, and keep it visible.
 
 ## The calendar
 
@@ -28,11 +28,11 @@ Put each recurring control on a shared calendar with the owner and a backup. The
 4. Remove what's marked, with a ticket for each removal.
 5. File the lists, the marks, the tickets, and the owner's sign-off together. The [access review template](../templates/access-review.md) has the form.
 
-The most common finding: accounts of people who left months ago, still active in a tool nobody thought of. Check that your departure checklist covers every system in the inventory.
+The most common finding is accounts of people who left months ago, still active in a tool nobody thought of. Check that your departure checklist covers every system in the inventory.
 
 ## Running a tabletop
 
-Once a year, gather the incident response team for an hour and talk through a scenario: "A customer emails to say their data appeared on a public forum," or "Our cloud bill tripled overnight." Walk through the plan step by step. Who's called? Who decides to tell customers? Where are the logs? Write down what was slow or unclear and fix it. The notes, the attendee list, and the follow-up tickets are the evidence for [INC-03](../controls/controls-map.md#incidents).
+Once a year, gather the incident response team for an hour and talk through a scenario: "A customer emails to say their data appeared on a public forum," or "Our cloud bill tripled overnight." Walk through the plan. Who's called? Who decides to tell customers? Where are the logs? Fix what was slow or unclear. The notes, the attendee list, and the follow-up tickets are the evidence for [INC-03](../controls/controls-map.md#incidents).
 
 ## Changes that break controls
 
@@ -43,7 +43,7 @@ Once a year, gather the incident response team for an hour and talk through a sc
 
 ## Exercise: build the calendar
 
-Create the shared calendar with every recurring control from your list, each with an owner and a backup. Book the next quarterly access review now. Pick a tabletop scenario from your risk register and book the session.
+Create the shared calendar with every recurring control, each with an owner and a backup. Book the next quarterly access review. Pick a tabletop scenario from your risk register and book the session.
 
 ## Check
 

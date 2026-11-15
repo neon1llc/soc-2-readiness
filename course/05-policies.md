@@ -7,11 +7,11 @@ description: "Write a short, honest policy set that matches what your company do
 
 ## What policies are for
 
-A policy says what the company requires. Controls show it happens. Auditors read your policies first, then test whether your controls match them. The most common policy problem is a downloaded template promising things the company has never done.
+A policy says what the company requires. Controls show it happens. Auditors read your policies first, then test whether your controls match. The most common problem is a downloaded template promising things the company has never done.
 
 ## The set you need
 
-A small company can usually cover SOC 2 with about ten documents. Some combine several into one handbook, which is fine.
+A small company can usually cover SOC 2 with about ten documents. Combining several into one handbook is fine.
 
 | Policy | Says |
 |---|---|
@@ -31,11 +31,11 @@ The [policy set outline](../templates/policy-outline.md) gives the headings for 
 
 ## Writing them so they get read
 
-- **One to three pages each.** Long policies are skimmed, and skimmed policies are ignored.
+- **One to three pages each.** Long policies get skimmed, then ignored.
 - **Say "we" and "you."** "You report a lost laptop to IT within one hour" is clearer than "Personnel shall notify the IT function."
-- **State the rule, not the tool.** "Production access requires two-step sign-in" survives a change of provider. Name tools in procedures, not policies.
+- **State the rule, not the tool.** "Production access requires two-step sign-in" survives a change of provider. Name tools in procedures.
 - **Match the controls.** If the access policy says "quarterly," the control says "quarterly."
-- **Put an owner, a version, an approval date, and a next review date** at the top of each.
+- **Put an owner, a version, an approval date, and a next review date** at the top.
 
 ## Approval, publishing, and acknowledgment
 
@@ -46,7 +46,7 @@ The [policy set outline](../templates/policy-outline.md) gives the headings for 
 
 ## Exercise: your policy set
 
-Draft the access control and incident response policies first, because they shape the most controls. Use your rewritten controls list from [module 4](04-controls.md) so every promise matches. Then outline the rest and assign an owner and a due date to each.
+Draft the access control and incident response policies first, because they shape the most controls. Match every promise to your rewritten controls list from [module 4](04-controls.md). Then outline the rest, with an owner and a due date for each.
 
 ## Check
 
