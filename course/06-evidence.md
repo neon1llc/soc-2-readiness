@@ -13,7 +13,7 @@ An auditor needs to see that a control happened, when, on which system, and by w
 - **Attributable.** It shows who did or approved the thing.
 - **From the system of record.** An export from the identity provider beats a hand-typed list of users.
 - **Complete.** It covers the whole period and the whole population, including the instances that went badly.
-- **Unedited.** A screenshot should show the URL or system name and the clock. Cropped screenshots raise questions.
+- **Unedited.** A screenshot shows the URL or system name and the clock. Cropped ones raise questions.
 
 > [!NOTE]
 > **Weak and strong**
@@ -22,21 +22,21 @@ An auditor needs to see that a control happened, when, on which system, and by w
 
 ## How auditors sample
 
-For a Type II, the auditor doesn't check every event. They ask for the **population**, a complete list of every time the control should have run, then pick a **sample** from it.
+In a Type II, the auditor doesn't check every event. They ask for the **population**, a complete list of every time the control should have run, then pick a **sample**.
 
-- For a control that runs on every event, such as access requests, pull requests, or departures, they ask for the full list for the window, then test a sample. The sample size grows with the population, and a few dozen is common for frequent events.
-- For quarterly controls, they usually test two or more of the instances, and in a short window, all of them.
-- For yearly controls, they test the one instance.
+- **Every-event controls** (access requests, pull requests, departures): the full list for the window, then a sample. The sample grows with the population, and a few dozen is common for frequent events.
+- **Quarterly controls:** usually two or more instances, or all of them in a short window.
+- **Yearly controls:** the one instance.
 
-Two consequences matter. First, you need to be able to produce a complete population, which means events have to be logged somewhere, not handled in chat. Second, one missed instance in a small population is a big share of it, and a missing quarter shows up as soon as the auditor asks for the population.
+Two consequences follow. You must be able to produce a complete population, so log events somewhere instead of handling them in chat. And one missed instance in a small population is a big share of it, so a missing quarter shows up as soon as the auditor asks.
 
 ## Exceptions are survivable
 
-An **exception** is a sample that failed. It appears in the report with your management response explaining what happened and what you changed. Readers weigh how serious each exception is and how you responded. A single isolated exception reads very differently from a pattern in one area. A **qualified opinion** happens when a control failed badly enough that a criterion wasn't met, and that's the result to avoid.
+An **exception** is a sample that failed. It appears in the report with your management response explaining what happened and what you changed. Readers weigh how serious it is and how you responded. One isolated exception reads very differently from a pattern in one area. A **qualified opinion** means a control failed badly enough that a criterion wasn't met. That's the result to avoid.
 
 ## Collect as you go
 
-The worst readiness projects collect evidence in the last two weeks. The best set up collection once:
+Don't collect evidence in the last two weeks. Set up collection once:
 
 1. **Use tickets for every manual control.** One recurring ticket per control instance, assigned to the owner, closed with the evidence attached.
 2. **Turn on the logs you'll need**, with retention longer than the observation window plus a few months.
@@ -47,7 +47,7 @@ The [evidence checklists](../evidence/index.md) show what auditors ask for in ea
 
 ## Exercise: start the tracker
 
-Copy the evidence tracker. For each control on your list, fill in the expected instances for the next three months and where the evidence will live. Then collect one real piece of evidence for three controls today, and check each against the five qualities above.
+Copy the evidence tracker. For each control, fill in the expected instances for the next three months and where the evidence will live. Then collect one real piece of evidence for three controls today, and check each against the five qualities above.
 
 ## Check
 

@@ -7,7 +7,7 @@ description: "Choose an auditor, prepare for fieldwork, read your report the way
 
 ## Choosing an auditor
 
-Only a licensed CPA firm can issue a SOC 2 report. Firms vary a lot in price, depth, and how well they understand small cloud companies. Talk to at least three, and ask:
+Only a licensed CPA firm can issue a SOC 2 report. Firms vary in price, depth, and how well they understand small cloud companies. Talk to at least three, and ask:
 
 - How many SOC 2 reports did you issue last year for companies our size and type?
 - Who does the fieldwork, and how much access will we have to them?
@@ -16,11 +16,11 @@ Only a licensed CPA firm can issue a SOC 2 report. Firms vary a lot in price, de
 - What's included in the fee, and what costs extra?
 - Can we speak with two clients you audited recently?
 
-Ask your customers which firms they've seen reports from and trust. Their security teams have opinions.
+Ask your customers which firms' reports they trust.
 
 ## The readiness assessment
 
-Before the real audit, many firms offer a **readiness assessment**: a lighter review of your design that lists gaps without issuing a report. It's worth it for a first audit. Fix what it finds, then start the window.
+Many firms offer a **readiness assessment**: a lighter review of your design that lists gaps without issuing a report. It's worth it for a first audit. Fix what it finds, then start the window.
 
 ## Fieldwork
 
@@ -31,7 +31,7 @@ For a Type II, fieldwork happens near the end of the window and runs from a few 
 3. **Sample requests**, where the auditor picks items from your populations and asks for the evidence for each.
 4. **Follow-up questions** and possible exceptions, which you can respond to before the report is final.
 
-Brief every control owner beforehand: answer what's asked, show the real system, and say "I'll find out" rather than guess.
+Brief every control owner beforehand: answer what's asked, show the real system, and say "I'll find out" instead of guessing.
 
 ## Reading the report
 
@@ -43,7 +43,7 @@ A SOC 2 report has a few main parts:
 - **Controls, tests, and results.** Each control, how the auditor tested it, and any exceptions with your management response.
 - **Complementary controls** your customers and your subservice organizations are expected to do.
 
-Read it the way a customer's security team will. Look for exceptions, scope gaps, and complementary controls a customer might miss.
+Read it as a customer's security team will, looking for exceptions, scope gaps, and complementary controls a customer might miss.
 
 ## After the report
 
@@ -58,7 +58,7 @@ Read it the way a customer's security team will. Look for exceptions, scope gaps
 2. What are the main parts of a SOC 2 report?
 3. What does a bridge letter do, and who writes it?
 
-That's the course. Keep the [calendar](../plan/observation-calendar.md) running, and come back to [module 3](03-risk.md) each year when the risk assessment is due.
+Keep the [calendar](../plan/observation-calendar.md) running, and return to [module 3](03-risk.md) each year when the risk assessment is due.
 
 ## Sources
 

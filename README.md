@@ -1,6 +1,6 @@
 # SOC 2 readiness, step by step
 
-**Hands-on SOC 2 readiness training for small and growing companies.** A course, a controls map, evidence checklists, and templates that help a team prepare for its first SOC 2 audit, from "a customer asked for our SOC 2 report" to controls that run and evidence an auditor can test, without buying a compliance platform first.
+**Hands-on SOC 2 readiness training for small and growing companies.** A course, a controls map, evidence checklists, and templates that help a team prepare for a first SOC 2 audit without buying a compliance platform first.
 
 From [neon1](https://neon1.tech). *1 is glad to be of service.*
 
@@ -10,10 +10,10 @@ From [neon1](https://neon1.tech). *1 is glad to be of service.*
 
 ## Who it's for
 
-- **Founders and operators** at a software or services company whose customers have started sending security questionnaires.
-- **The person who just became "the security owner"** and needs to know what to do on Monday.
+- **Founders and operators** whose customers have started sending security questionnaires.
+- **The new "security owner"** who needs to know what to do on Monday.
 - **Engineers and IT leads** who already do most of the right things and need to prove it.
-- **Trainers and consultants** who want an open, adaptable course to teach from.
+- **Trainers and consultants** who want an open course to teach from.
 
 You don't need a security background. You do need someone with real time to own the work.
 
@@ -34,11 +34,11 @@ You don't need a security background. You do need someone with real time to own 
 2. Copy the [controls CSV](controls/controls.csv) and the [evidence tracker](templates/evidence-tracker.csv) into your own spreadsheet.
 3. Follow the [90-day plan](plan/90-day-plan.md), taking one module a week.
 
-New to SOC 2 altogether? Read the [SOC 2 track in Ready, Secure, Go](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2) first. It explains what SOC 2 is in plain words. SOC 2 Readiness is the hands-on part: the work, the forms, and the evidence.
+New to SOC 2? Read the [SOC 2 track in Ready, Secure, Go](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2) first. SOC 2 Readiness is the hands-on part: the work, the forms, and the evidence.
 
 ## Growing past SOC 2
 
-The controls map carries ISO 27001:2022 references next to the SOC 2 criteria, so the same controls can grow into an ISO 27001 program without starting over. ISO adds a formal management system (scope statement, risk treatment plan, statement of applicability, internal audit, and management review), which [module 8](course/08-the-audit.md#after-the-report) touches on.
+The controls map carries ISO 27001:2022 references next to the SOC 2 criteria, so the same controls can grow into an ISO 27001 program. ISO adds a formal management system (scope statement, risk treatment plan, statement of applicability, internal audit, and management review), which [module 8](course/08-the-audit.md#after-the-report) touches on.
 
 ## What this isn't
 

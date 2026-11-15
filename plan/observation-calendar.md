@@ -3,7 +3,7 @@ title: The year-round calendar
 description: "Every recurring control on one calendar, by month, so nothing slips during the observation window."
 ---
 
-Shift the months to match your window. Put each item on a shared calendar with an owner and a backup, and create the ticket for it in advance.
+Shift the months to match your window. Put each item on a shared calendar with an owner and a backup, and create its ticket in advance.
 
 | Month | Recurring work | Controls |
 |---|---|---|

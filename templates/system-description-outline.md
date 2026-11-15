@@ -3,7 +3,7 @@ title: System description outline
 description: "Headings for drafting the system description that opens a SOC 2 report, and the scope decisions behind it."
 ---
 
-Draft this during [module 2](../course/02-scope.md) and refine it before the audit. The auditor will help shape the final wording, but the facts are yours.
+Draft this during [module 2](../course/02-scope.md) and refine it before the audit. The auditor helps shape the final wording, but the facts are yours.
 
 ## 1. The company and the service
 

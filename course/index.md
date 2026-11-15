@@ -3,7 +3,7 @@ title: The course
 description: "Eight modules that take a small or growing company from a customer's first SOC 2 question to being prepared for a first audit."
 ---
 
-Each module takes about an hour: twenty minutes to read, thirty to do the exercise on your own company, and ten for the check. Do them in order, one a week, alongside the [90-day plan](../plan/90-day-plan.md).
+Each module takes about an hour: twenty minutes to read, thirty for the exercise on your own company, and ten for the check. Do one a week, in order, alongside the [90-day plan](../plan/90-day-plan.md).
 
 | # | Module | You leave with |
 |---|---|---|
@@ -16,8 +16,6 @@ Each module takes about an hour: twenty minutes to read, thirty to do the exerci
 | 7 | [Run it all year](07-operate.md) | A calendar of recurring controls and who runs each |
 | 8 | [The audit, and after](08-the-audit.md) | A shortlist of auditors and a plan for the report |
 
-Each module ends with a short check. If you can answer it without looking back, move on.
-
 > [!NOTE]
 > **Before you start**
 >
@@ -25,7 +23,7 @@ Each module ends with a short check. If you can answer it without looking back, 
 > - Which customer, deal, or date is driving it?
 > - What do you already do well that nobody has written down?
 
-Words you don't know are in the [glossary](glossary.md).
+Unfamiliar words are in the [glossary](glossary.md).
 
 ## Sources
 

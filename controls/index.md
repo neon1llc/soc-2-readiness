@@ -3,7 +3,7 @@ title: How to read the controls map
 description: "What each column in the controls map means, how the SOC 2 and ISO 27001 references work, and how to make the map your own."
 ---
 
-The [controls map](controls-map.md) is generated from [controls.csv](controls.csv). Copy the CSV into a spreadsheet to work on your own version. It's the same data.
+The [controls map](controls-map.md) is generated from [controls.csv](controls.csv). Copy the CSV into a spreadsheet to make your own version.
 
 ## The columns
 
@@ -23,7 +23,7 @@ A reference means the control is a reasonable way to help meet that criterion or
 
 ## Making it yours
 
-Work through [module 4](../course/04-controls.md). Cut what you don't need and rewrite what you keep. Then check that each in-scope criterion still has at least one control. If you edit the CSV in this repository, run `node tools/build-map.mjs` to rebuild the map and its coverage table. The check workflow fails if a criterion is left uncovered.
+Work through [module 4](../course/04-controls.md): cut what you don't need, rewrite what you keep, and check that each in-scope criterion still has a control. If you edit the CSV in this repository, run `node tools/build-map.mjs` to rebuild the map and its coverage table. The check workflow fails if a criterion is left uncovered.
 
 ## What's not here
 

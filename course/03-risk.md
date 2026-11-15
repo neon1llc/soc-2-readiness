@@ -7,14 +7,14 @@ description: "Run a first risk assessment in an afternoon: what could go wrong, 
 
 ## Why auditors care
 
-SOC 2 expects your controls to answer your risks. If you can't show how you decided what could go wrong, an auditor can't tell whether your controls are the right ones. The risk assessment is also one of the few controls that has to be done before anything else, because the rest refer back to it (controls [RISK-01 and RISK-02](../controls/controls-map.md#risk)).
+SOC 2 expects your controls to answer your risks. Without a record of how you decided what could go wrong, an auditor can't tell whether your controls are the right ones. The risk assessment comes first, because the other controls refer back to it (controls [RISK-01 and RISK-02](../controls/controls-map.md#risk)).
 
-It doesn't need to be elaborate. A spreadsheet with honest rows beats a consultant's heat map nobody revisits.
+It doesn't need to be elaborate. A spreadsheet with honest rows beats a heat map nobody revisits.
 
 ## A simple, repeatable method
 
 1. **List what you protect.** Customer data, the service staying up, your code, money, and your reputation. Use the inventory from [module 2](02-scope.md).
-2. **List what could go wrong** to each, in plain sentences. "An engineer's laptop is stolen with production keys on it." "A vendor we use is breached." "A fake invoice gets paid." Include fraud: someone inside or outside lying to move money or data. Include change: a new product, a new office, a big hire, or a new vendor.
+2. **List what could go wrong** to each, in plain sentences. "An engineer's laptop is stolen with production keys on it." "A vendor we use is breached." "A fake invoice gets paid." Include fraud, meaning someone lying to move money or data, and change, such as a new product, office, big hire, or vendor.
 3. **Score likelihood and impact** from 1 to 5 each. Write down what each number means so next year's scores are comparable:
 
    | Score | Likelihood | Impact |
@@ -30,12 +30,12 @@ It doesn't need to be elaborate. A spreadsheet with honest rows beats a consulta
 
 ## Running the session
 
-Book ninety minutes with leadership, the engineering lead, and whoever handles money and people. Bring a starter list of fifteen risks so nobody faces a blank page. Ask each person what worries them most about the company, and add their answers. Score together. Disagreement is useful. Write down the reasoning.
+Book ninety minutes with leadership, the engineering lead, and whoever handles money and people. Bring a starter list of fifteen risks, and ask each person what worries them most. Score together, and write down the reasoning behind any disagreement.
 
 > [!TIP]
 > **Tie risks to controls**
 >
-> Add a column for the controls that reduce each risk, using IDs from the [controls map](../controls/controls-map.md). Any high risk with no control is a gap, and any control that answers no risk may not be worth keeping.
+> Add a column for the controls that reduce each risk, using IDs from the [controls map](../controls/controls-map.md). A high risk with no control is a gap. A control that answers no risk may not be worth keeping.
 
 ## Exercise: your first register
 

@@ -3,7 +3,7 @@ title: Evidence checklists
 description: "What the auditor will ask for in each area, what good proof looks like, and the mistakes that cause exceptions."
 ---
 
-One checklist per area of the [controls map](../controls/controls-map.md). Each lists what an auditor typically requests, what good evidence looks like, and the slips that most often become exceptions. Read [module 6](../course/06-evidence.md) first for what makes evidence hold up.
+One checklist per area of the [controls map](../controls/controls-map.md): what an auditor typically requests, what good evidence looks like, and the slips that become exceptions. Read [module 6](../course/06-evidence.md) first.
 
 | Area | Checklist |
 |---|---|
