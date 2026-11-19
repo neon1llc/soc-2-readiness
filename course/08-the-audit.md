@@ -11,7 +11,7 @@ Only a licensed CPA firm can issue a SOC 2 report. Firms vary in price, depth, a
 
 - How many SOC 2 reports did you issue last year for companies our size and type?
 - Who does the fieldwork, and how much access will we have to them?
-- Do you offer a readiness assessment, and is it separate from the audit team? (It should be: a firm can't audit controls it designed.)
+- Do you offer a readiness assessment, and how do you keep it separate from the audit? (A firm that designs or runs your controls can't independently audit them. Some firms do a gaps-only readiness review for a client they later audit, and some companies use a different firm for it. Ask what safeguards the firm uses.)
 - How do you collect evidence: your portal, our tracker, or a compliance platform?
 - What's included in the fee, and what costs extra?
 - Can we speak with two clients you audited recently?
@@ -20,7 +20,7 @@ Ask your customers which firms' reports they trust.
 
 ## The readiness assessment
 
-Many firms offer a **readiness assessment**: a lighter review of your design that lists gaps without issuing a report. It's worth it for a first audit. Fix what it finds, then start the window.
+Many firms offer a **readiness assessment**: a lighter review of your design that lists gaps without issuing a report. It's worth it for a first audit. Fix what it finds, then start the window. It tells you whether your design looks right to that firm, and it doesn't promise the same auditor will accept your evidence later.
 
 ## Fieldwork
 
@@ -54,7 +54,7 @@ Read it as a customer's security team will, looking for exceptions, scope gaps, 
 
 ## Check
 
-1. Why should the readiness assessment be separate from the audit?
+1. Why does a firm that designs your controls create a problem when it also audits them?
 2. What are the main parts of a SOC 2 report?
 3. What does a bridge letter do, and who writes it?
 

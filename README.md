@@ -42,7 +42,7 @@ The controls map carries ISO 27001:2022 references next to the SOC 2 criteria, s
 
 ## What this isn't
 
-SOC 2 Readiness is readiness training, not audit or legal advice. It helps a team prepare, and it can't promise an audit result. Only a licensed CPA firm can issue a SOC 2 report, and the opinion in it is the auditor's. SOC 2 and the Trust Services Criteria are from the AICPA, and ISO/IEC 27001 is published by ISO and IEC. Both are described here in our own words and cited by ID only. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+SOC 2 Readiness is readiness training, not audit or legal advice. It helps a team prepare, and it can't promise an audit result or that an auditor will accept your evidence. A compliance platform, a consultant, or your auditor's readiness assessment may suit you better if you lack time or experience. [Module 1](course/01-decide-why.md#doing-it-with-help) says when. Only a licensed CPA firm can issue a SOC 2 report, and the opinion in it is the auditor's. SOC 2 and the Trust Services Criteria are from the AICPA, and ISO/IEC 27001 is published by ISO and IEC. Both are described here in our own words and cited by ID only. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
 ## Checking a change
 
