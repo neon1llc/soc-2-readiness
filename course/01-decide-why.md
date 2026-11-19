@@ -7,7 +7,7 @@ description: "Why you want SOC 2, whether it's the right answer yet, and how to 
 
 ## Why the reason matters
 
-SOC 2 costs more time than money. Getting ready usually takes several months of one person's part-time effort, then you pay an audit firm. Without a clear reason, scope creeps, nobody owns the work, and it stalls in a busy quarter.
+SOC 2 takes sustained time from at least one person, and an audit firm charges a fee on top. Fees vary widely by firm, scope, and report type, so get quotes before you commit. Without a clear reason, scope creeps, nobody owns the work, and it stalls in a busy quarter.
 
 The common reasons:
 
@@ -24,6 +24,15 @@ A lighter step can close the deal for now:
 - **A letter describing your readiness work** and the date you expect the report.
 - **ISO 27001** instead, if most of your customers are outside the United States. The controls overlap heavily, as the [controls map](../controls/controls-map.md) shows.
 - **Nothing formal** if the customer only needs to know you use well-run cloud providers. Their SOC reports cover the data center, and yours would cover what you do on top.
+
+## Doing it with help
+
+You don't have to do all of this by hand. Pick the help that fits the gap:
+
+- **A compliance platform** such as Vanta, Drata, or Secureframe connects to your cloud, identity, and ticketing tools and collects evidence automatically. It suits a team that already knows its controls and loses time gathering proof. It doesn't set your scope or run your reviews, and it adds a subscription cost.
+- **Your auditor's readiness assessment** tells you whether the design looks right to the firm that may issue the report. Use it before you start a Type II window.
+- **A consultant or virtual CISO** helps if nobody on the team has done this before.
+- **The AICPA's own guidance**, linked under Sources, is the authority on what the report covers. This course is a way to prepare, and doesn't replace any of these.
 
 ## Type I or Type II
 
