@@ -29,7 +29,7 @@ A lighter step can close the deal for now:
 
 You don't have to do all of this by hand. Pick the help that fits the gap:
 
-- **A compliance platform** such as Vanta, Drata, or Secureframe connects to your cloud, identity, and ticketing tools and collects evidence automatically. It suits a team that already knows its controls and loses time gathering proof. It doesn't set your scope or run your reviews, and it adds a subscription cost.
+- **A compliance platform** (Vanta, Drata, and Secureframe are examples, not endorsements) connects to your cloud, identity, and ticketing tools and collects evidence automatically. It suits a team that already knows its controls and loses time gathering proof. It doesn't set your scope or run your reviews, and it adds a subscription cost.
 - **Your auditor's readiness assessment** tells you whether the design looks right to the firm that may issue the report. Use it before you start a Type II window.
 - **A consultant or virtual CISO** helps if nobody on the team has done this before.
 - **The AICPA's own guidance**, linked under Sources, is the authority on what the report covers. This course is a way to prepare, and doesn't replace any of these.
