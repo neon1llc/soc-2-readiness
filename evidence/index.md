@@ -3,7 +3,7 @@ title: Evidence checklists
 description: "What the auditor will ask for in each area, what good proof looks like, and the mistakes that cause exceptions."
 ---
 
-One checklist per area of the [controls map](../controls/controls-map.md): what an auditor typically requests, what good evidence looks like, and the slips that become exceptions. Read [module 6](../course/06-evidence.md) first.
+One checklist per area of the [controls map](../controls/controls-map.md). Read [module 6](../course/06-evidence.md) first.
 
 | Area | Checklist |
 |---|---|
@@ -17,4 +17,4 @@ One checklist per area of the [controls map](../controls/controls-map.md): what 
 | Continuity and backups | [continuity.md](continuity.md) |
 | Vendors and data | [vendors-and-data.md](vendors-and-data.md) |
 
-Tick a box when the evidence for the whole window is filed where your [evidence tracker](../templates/evidence-tracker.csv) says it lives.
+Tick a box when the evidence for the whole window is filed where your [evidence tracker](../templates/evidence-tracker.csv) says.

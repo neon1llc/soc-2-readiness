@@ -3,11 +3,11 @@ title: Vendor review form
 description: "Review a vendor before signing and each year: what it touches, its risk tier, its security report, and what it expects of you."
 ---
 
-**Vendor:** ______________________ **Service:** ______________________ **Business owner:** ______________________
+**Vendor:** ____________ **Service:** ____________ **Business owner:** ____________
 
 ## What it touches
 
-- [ ] Customer data. Which? ______________________
+- [ ] Customer data (which?): ____________
 - [ ] Production systems or code
 - [ ] Employee personal data
 - [ ] Money (payments, payroll, banking)
@@ -19,7 +19,7 @@ description: "Review a vendor before signing and each year: what it touches, its
 | Question | Answer |
 |---|---|
 | SOC 2 Type II or ISO 27001 report? Period and date | |
-| Opinion clean? Any exceptions, and do they affect us? | |
+| Opinion clean? Exceptions that affect us? | |
 | Subservice organizations it relies on | |
 | Two-step sign-in available for our accounts? | |
 | Where our data is stored, and can it be deleted on request? | |
@@ -27,16 +27,12 @@ description: "Review a vendor before signing and each year: what it touches, its
 
 ## What it expects of us
 
-List the complementary user entity controls from its report and the control of ours that meets each.
-
-| Their expectation | Our control |
+| Complementary control in its report | Our control that meets it |
 |---|---|
 | | |
 
 ## Decision
 
-Approved / Approved with conditions / Not approved
+Approved / Approved with conditions / Not approved. Conditions: ____________
 
-Conditions: ______________________
-
-Reviewer: ______________________ Date: ____________ Next review: ____________
+Reviewer: ____________ Date: ________ Next review: ________

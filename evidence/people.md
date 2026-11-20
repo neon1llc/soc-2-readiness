@@ -5,7 +5,7 @@ description: "Proof of background checks, confidentiality agreements, training, 
 
 Controls: PPL-01 to PPL-04, plus the hiring half of GOV-04.
 
-## What the auditor asks for
+## Auditor asks for
 
 - [ ] Everyone hired during the window, with start dates (the population).
 - [ ] For a sample of hires: background check completed before access was granted, where the law allows checks.
@@ -14,9 +14,7 @@ Controls: PPL-01 to PPL-04, plus the hiring half of GOV-04.
 - [ ] The disciplinary policy, and an anonymized log of security-related cases if any occurred.
 - [ ] Job descriptions for key security roles.
 
-## What good looks like
-
-An HR system export showing hire date, check date, agreement date, and training date side by side, so the auditor sees the order in one view.
+Show hire, check, agreement, and training dates side by side in one HR export.
 
 ## Common exceptions
 
@@ -26,5 +24,5 @@ An HR system export showing hire date, check date, agreement date, and training 
 
 ## Sources
 
-- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against.
-- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the management system standard and its Annex A controls. The standard is paid.
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), AICPA.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), ISO. The standard is paid.
