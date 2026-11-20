@@ -5,27 +5,27 @@ description: "44 starter controls for a small or growing company, each with an o
 
 <!-- Generated from controls.csv by tools/build-map.mjs. Edit the CSV, then run: node tools/build-map.mjs -->
 
-Each row is one thing your company does, written so an auditor can test it: who does it, how often, and what proof it leaves. Start from these, then cut, merge, and reword until every line is true for you. A control you can't keep doing is worse than none, because the auditor will find the gap.
+Each row is one thing your company does, written so an auditor can test it. Start here, then cut, merge, and reword until every line is true for you. A control you can't keep doing is worse than none, because the auditor will find the gap.
 
-The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cites 2022 Annex A controls and clauses. Both are described in our own words. See [how to read the map](index.md).
+The SOC 2 column cites Trust Services Criteria IDs and the ISO 27001 column cites 2022 Annex A controls and clauses, both in our own words. See [how to read the map](index.md).
 
 ## Governance
 
 | ID | Control | Owner | How often | Evidence | SOC 2 | ISO 27001 |
 |---|---|---|---|---|---|---|
-| GOV-01 | Leadership approves the security program, its owner, and its budget, and reviews progress at least twice a year. | CEO | Semiannual | Meeting notes or minutes with attendees, date, and decisions | CC1.2; CC1.3; CC2.1 | 5.1; 5.2; Clause 9.3 |
-| GOV-02 | A named security owner has written responsibilities and the time to carry them out. | CEO | Annual | Role description or org chart naming the owner; leadership sign-off | CC1.3; CC1.5 | 5.2; 5.4 |
-| GOV-03 | Security policies are written, approved, published where staff can find them, and reviewed each year. | Security owner | Annual | Policy set with version, approver, and approval date; review record | CC5.3; CC2.2 | 5.1; 5.37 |
+| GOV-01 | Leadership approves the security program, its owner, and its budget, and reviews progress at least twice a year. | CEO | Semiannual | Meeting notes with attendees, date, and decisions | CC1.2; CC1.3; CC2.1 | 5.1; 5.2; Clause 9.3 |
+| GOV-02 | A named security owner has written responsibilities and the time to carry them out. | CEO | Annual | Role description or org chart naming the owner; sign-off | CC1.3; CC1.5 | 5.2; 5.4 |
+| GOV-03 | Security policies are written, approved, published where staff can find them, and reviewed each year. | Security owner | Annual | Policies with version, approver, and approval date; review record | CC5.3; CC2.2 | 5.1; 5.37 |
 | GOV-04 | Everyone acknowledges the code of conduct and key policies at hire and each year. | People lead | At hire; Annual | Acknowledgment records from the HR or e-signature tool | CC1.1; CC2.2 | 6.2; 5.10 |
-| GOV-05 | Customer commitments (security terms, SLAs, and the system description) are kept current and shared with customers. | Security owner | Annual | Published trust page or contract template; dated system description | CC2.3 | 5.31; 5.20 |
+| GOV-05 | Customer commitments (security terms, SLAs, and the system description) are kept current and shared with customers. | Security owner | Annual | Trust page or contract template; dated system description | CC2.3 | 5.31; 5.20 |
 
 ## Risk
 
 | ID | Control | Owner | How often | Evidence | SOC 2 | ISO 27001 |
 |---|---|---|---|---|---|---|
-| RISK-01 | A risk assessment covering security, fraud, and major changes is done each year and when the business changes. | Security owner | Annual; On change | Risk register with likelihood, impact, owner, treatment, and review date | CC3.1; CC3.2; CC3.3; CC3.4 | Clause 6.1.2; 5.7 |
-| RISK-02 | Each high risk has an owner and a treatment plan that leadership has accepted. | Security owner | Annual | Register entries with treatment, owner, and acceptance sign-off | CC3.2; CC5.1; CC9.1 | Clause 6.1.3 |
-| RISK-03 | An inventory of systems, data stores, and the data each holds is kept current. | Engineering lead | Quarterly | System and data inventory with owner and data classification | CC3.2; CC6.1; C1.1 | 5.9; 5.12 |
+| RISK-01 | A risk assessment covering security, fraud, and major changes is done each year and when the business changes. | Security owner | Annual; On change | Risk register with scores, owner, treatment, and review date | CC3.1; CC3.2; CC3.3; CC3.4 | Clause 6.1.2; 5.7 |
+| RISK-02 | Each high risk has an owner and a treatment plan that leadership has accepted. | Security owner | Annual | Register entries with treatment, owner, and sign-off | CC3.2; CC5.1; CC9.1 | Clause 6.1.3 |
+| RISK-03 | An inventory of systems, data stores, and the data each holds is kept current. | Engineering lead | Quarterly | Inventory with owner and data classification | CC3.2; CC6.1; C1.1 | 5.9; 5.12 |
 | RISK-04 | An independent check of the controls (internal review or outside readiness assessment) happens each year. | Security owner | Annual | Review report and the tracked fixes | CC4.1; CC4.2 | 5.35; Clause 9.2 |
 
 ## People
@@ -41,10 +41,10 @@ The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cit
 
 | ID | Control | Owner | How often | Evidence | SOC 2 | ISO 27001 |
 |---|---|---|---|---|---|---|
-| ACC-01 | Access is granted by role, approved by the system owner, and recorded in a ticket. | System owners | On request | Access request tickets with approver and date, sampled across the period | CC6.2; CC6.3 | 5.15; 5.18 |
+| ACC-01 | Access is granted by role, approved by the system owner, and recorded in a ticket. | System owners | On request | Access request tickets with approver and date | CC6.2; CC6.3 | 5.15; 5.18 |
 | ACC-02 | Departing staff lose access to every system within one business day. | People lead; IT | On departure | Departure list matched to account disable times | CC6.2; CC6.3 | 5.18; 6.5 |
-| ACC-03 | System owners review who has access each quarter and fix what they find. | System owners | Quarterly | Signed review with the user list, the changes made, and dates | CC6.2; CC6.3; CC4.1 | 5.18 |
-| ACC-04 | Single sign-on and phishing-resistant two-step sign-in are required for company systems. | IT | Continuous | SSO and MFA policy settings; report of users and MFA status | CC6.1 | 5.17; 8.5 |
+| ACC-03 | System owners review who has access each quarter and fix what they find. | System owners | Quarterly | Signed review with user list, changes, and dates | CC6.2; CC6.3; CC4.1 | 5.18 |
+| ACC-04 | Single sign-on and phishing-resistant two-step sign-in are required for company systems. | IT | Continuous | SSO and MFA settings; report of users and MFA status | CC6.1 | 5.17; 8.5 |
 | ACC-05 | Administrator and production access is limited to named people, uses separate accounts, and is logged. | Engineering lead | Quarterly | Admin list; access logs; review record | CC6.1; CC6.3 | 8.2; 8.3 |
 | ACC-06 | Service accounts and keys have owners, are stored in a secrets manager, and are rotated. | Engineering lead | Quarterly | Secrets inventory with owners and last rotation dates | CC6.1 | 5.17; 8.24 |
 
@@ -67,14 +67,14 @@ The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cit
 
 | ID | Control | Owner | How often | Evidence | SOC 2 | ISO 27001 |
 |---|---|---|---|---|---|---|
-| VUL-01 | Systems and dependencies are scanned for vulnerabilities, and findings are fixed within set timeframes. | Engineering lead | Continuous | Scan reports; tickets showing fix dates against the policy timeframes | CC7.1 | 8.8 |
+| VUL-01 | Systems and dependencies are scanned for vulnerabilities, and findings are fixed within set timeframes. | Engineering lead | Continuous | Scan reports; tickets showing fix dates against policy timeframes | CC7.1 | 8.8 |
 | VUL-02 | An outside penetration test runs each year and its findings are tracked to closure. | Security owner | Annual | Test report; remediation tickets | CC4.1; CC7.1 | 8.8; 8.29 |
 
 ## Change
 
 | ID | Control | Owner | How often | Evidence | SOC 2 | ISO 27001 |
 |---|---|---|---|---|---|---|
-| CHG-01 | Code and infrastructure changes are reviewed by someone other than the author before production. | Engineering lead | On change | Pull requests with an approving reviewer, sampled across the period | CC8.1 | 8.32; 5.3 |
+| CHG-01 | Code and infrastructure changes are reviewed by someone other than the author before production. | Engineering lead | On change | Pull requests with an approving reviewer | CC8.1 | 8.32; 5.3 |
 | CHG-02 | Changes pass automated tests and deploy through a pipeline; no one edits production by hand. | Engineering lead | On change | Pipeline configuration; branch protection settings; deploy logs | CC8.1; CC5.2 | 8.25; 8.32 |
 | CHG-03 | Development, test, and production are separate, and production data is not used in testing. | Engineering lead | Continuous | Account or environment layout; data handling rule | CC8.1; C1.1 | 8.31; 8.33 |
 | CHG-04 | Emergency changes are allowed, recorded, and reviewed after the fact. | Engineering lead | On event | Emergency change log with after-the-fact approvals | CC8.1 | 8.32 |
@@ -92,7 +92,7 @@ The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cit
 | ID | Control | Owner | How often | Evidence | SOC 2 | ISO 27001 |
 |---|---|---|---|---|---|---|
 | INC-01 | A written incident response plan names roles, severity levels, and contact steps, including customer notice. | Security owner | Annual | Approved plan with review date | CC7.3; CC7.4; CC2.3 | 5.24; 5.26 |
-| INC-02 | Incidents are logged, handled per the plan, and closed with lessons learned. | Security owner | On event | Incident tickets with timeline, actions, and a review | CC7.4; CC7.5 | 5.25; 5.26; 5.27; 5.28 |
+| INC-02 | Incidents are logged, handled per the plan, and closed with lessons learned. | Security owner | On event | Incident tickets with timeline, actions, and review | CC7.4; CC7.5 | 5.25; 5.26; 5.27; 5.28 |
 | INC-03 | The incident plan is exercised with a tabletop each year. | Security owner | Annual | Tabletop notes with attendees, scenario, and follow-ups | CC7.4; CC7.5 | 5.24; 5.27 |
 
 ## Continuity
@@ -100,16 +100,16 @@ The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cit
 | ID | Control | Owner | How often | Evidence | SOC 2 | ISO 27001 |
 |---|---|---|---|---|---|---|
 | BCP-01 | Backups run on schedule, are encrypted, and are stored apart from production. | Engineering lead | Continuous | Backup settings and job history | A1.2; CC7.5 | 8.13 |
-| BCP-02 | A restore from backup is tested at least each year, with the time it took recorded. | Engineering lead | Annual | Restore test record with date, data restored, and duration | A1.3; CC7.5 | 8.13; 5.30 |
+| BCP-02 | A restore from backup is tested at least each year, with the time it took recorded. | Engineering lead | Annual | Restore test record with date, data, and duration | A1.3; CC7.5 | 8.13; 5.30 |
 | BCP-03 | A continuity plan covers loss of a key system, provider, or person, and is reviewed each year. | Security owner | Annual | Approved plan; review record | CC9.1; A1.2; A1.3 | 5.29; 5.30 |
 
 ## Vendors
 
 | ID | Control | Owner | How often | Evidence | SOC 2 | ISO 27001 |
 |---|---|---|---|---|---|---|
-| VEN-01 | Vendors that touch customer data are reviewed before signing and each year, by risk. | Security owner | Before signing; Annual | Vendor list with risk tier; review records; SOC reports collected | CC9.2 | 5.19; 5.21; 5.22 |
+| VEN-01 | Vendors that touch customer data are reviewed before signing and each year, by risk. | Security owner | Before signing; Annual | Vendor list with risk tier; reviews; SOC reports | CC9.2 | 5.19; 5.21; 5.22 |
 | VEN-02 | Contracts with key vendors include security and confidentiality terms. | Security owner | Before signing | Contracts or DPAs with security clauses | CC9.2 | 5.20 |
-| VEN-03 | Customer responsibilities from vendor SOC reports (complementary user entity controls) are met. | Security owner | Annual | Vendor CUEC list mapped to the company's own controls | CC9.2 | 5.23 |
+| VEN-03 | Customer responsibilities from vendor SOC reports (complementary user entity controls) are met. | Security owner | Annual | CUEC list mapped to your controls | CC9.2 | 5.23 |
 
 ## Data
 
@@ -120,7 +120,7 @@ The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cit
 
 ## Coverage by SOC 2 criterion
 
-Every criterion below should have at least one control. If you remove a control, check that its criteria are still covered.
+Every criterion needs at least one control. If you remove a control, check its criteria are still covered.
 
 | Criterion | Controls |
 |---|---|
@@ -165,6 +165,6 @@ Every criterion below should have at least one control. If you remove a control,
 
 ## Sources
 
-- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
-- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.
-- [Mapping: 2017 Trust Services Criteria to ISO 27001](https://www.aicpa-cima.com/resources/download/mapping-2017-trust-services-criteria-to-iso-27001), from the AICPA: the official crosswalk to check the ISO column against.
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the management system standard and its Annex A controls. The standard is paid.
+- [Mapping: 2017 Trust Services Criteria to ISO 27001](https://www.aicpa-cima.com/resources/download/mapping-2017-trust-services-criteria-to-iso-27001), from the AICPA: the official crosswalk to check the ISO column.

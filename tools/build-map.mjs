@@ -46,9 +46,9 @@ description: "${controls.length} starter controls for a small or growing company
 
 <!-- Generated from controls.csv by tools/build-map.mjs. Edit the CSV, then run: node tools/build-map.mjs -->
 
-Each row is one thing your company does, written so an auditor can test it: who does it, how often, and what proof it leaves. Start from these, then cut, merge, and reword until every line is true for you. A control you can't keep doing is worse than none, because the auditor will find the gap.
+Each row is one thing your company does, written so an auditor can test it. Start here, then cut, merge, and reword until every line is true for you. A control you can't keep doing is worse than none, because the auditor will find the gap.
 
-The SOC 2 column cites Trust Services Criteria IDs, and the ISO 27001 column cites 2022 Annex A controls and clauses. Both are described in our own words. See [how to read the map](index.md).
+The SOC 2 column cites Trust Services Criteria IDs and the ISO 27001 column cites 2022 Annex A controls and clauses, both in our own words. See [how to read the map](index.md).
 
 `;
 
@@ -64,7 +64,7 @@ for (const area of areas) {
 
 // Coverage: each criterion and the controls that answer it; an empty row is a gap to close
 const gaps = [];
-md += `## Coverage by SOC 2 criterion\n\nEvery criterion below should have at least one control. If you remove a control, check that its criteria are still covered.\n\n| Criterion | Controls |\n|---|---|\n`;
+md += `## Coverage by SOC 2 criterion\n\nEvery criterion needs at least one control. If you remove a control, check its criteria are still covered.\n\n| Criterion | Controls |\n|---|---|\n`;
 for (const k of CRITERIA) {
   const ids = controls.filter((c) => c.soc2.split(/;\s*/).includes(k)).map((c) => c.id);
   if (!ids.length) gaps.push(k);
@@ -75,9 +75,9 @@ for (const k of CRITERIA) {
 md += `
 ## Sources
 
-- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
-- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the information security management system standard and its Annex A controls, a paid standard cited here by clause and control number.
-- [Mapping: 2017 Trust Services Criteria to ISO 27001](https://www.aicpa-cima.com/resources/download/mapping-2017-trust-services-criteria-to-iso-27001), from the AICPA: the official crosswalk to check the ISO column against.
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against.
+- [ISO/IEC 27001:2022](https://www.iso.org/standard/27001), from ISO: the management system standard and its Annex A controls. The standard is paid.
+- [Mapping: 2017 Trust Services Criteria to ISO 27001](https://www.aicpa-cima.com/resources/download/mapping-2017-trust-services-criteria-to-iso-27001), from the AICPA: the official crosswalk to check the ISO column.
 `;
 
 // Write, or in --check mode compare and fail when stale or when a criterion has no control
