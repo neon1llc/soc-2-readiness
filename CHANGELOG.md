@@ -6,7 +6,7 @@ SOC 2 Readiness releases use `v0.MINOR.PATCH` until the first complete release, 
 
 ### Changed
 - Course modules no longer open with an objectives line, close with a next-module link, or end with check questions.
-- Much shorter course, evidence checklists, templates, glossary, workshop guide, plan, and controls page: exercises are single paragraphs, source notes are one line each, and repeated tables and "good looks like" text are gone.
+- Shorter README, course, evidence checklists, templates, glossary, workshop guide, plan, and controls page: exercises are single paragraphs, source notes are one line each, and most "good looks like" notes and repeated tables are gone.
 - The policy outline, vendor and incident forms, and system description outline are tighter, and the policy outline is now a table.
 
 ## v0.1.6 - 2026-11-19
