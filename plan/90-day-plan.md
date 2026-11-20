@@ -26,7 +26,7 @@ This plan assumes one owner with about eight hours a week, help from engineering
 ## Signs you're slipping
 
 - The owner has missed two weekly check-ins.
-- Controls are being written for what you plan to do "someday."
+- Controls are written for what you plan to do "someday."
 - Evidence lives in personal inboxes and chat threads.
 
 Cut scope or move the date. Both beat starting a window you can't finish.

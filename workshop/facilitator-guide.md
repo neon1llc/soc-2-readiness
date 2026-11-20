@@ -5,7 +5,7 @@ description: "Teach the SOC 2 Readiness course as a half-day workshop or a two-d
 
 **Audience:** founders, operators, security owners, and engineering leads preparing for a first SOC 2 report. Groups of 4 to 20 work best, with two or three people from each company.
 
-**You'll need:** a projector, printed copies of the [controls map](../controls/controls-map.md) and [evidence checklists](../evidence/index.md), a laptop for each company team, and the [templates](../templates/index.md) shared ahead of time.
+**You'll need:** a projector, printed [controls map](../controls/controls-map.md) and [evidence checklists](../evidence/index.md), a laptop per team, and the [templates](../templates/index.md) shared ahead of time.
 
 ## Half-day format (4 hours)
 
@@ -24,20 +24,18 @@ description: "Teach the SOC 2 Readiness course as a half-day workshop or a two-d
 
 ## Two-day format
 
-Day one covers modules 1 to 4 with the full exercises, ending with each team's own controls list. Day two covers modules 5 to 8: teams draft an access control policy, fill the evidence tracker for one area, run a 30-minute tabletop, and role-play an auditor walkthrough of one control.
+Day one is modules 1 to 4 with the full exercises, ending with each team's controls list. Day two is modules 5 to 8: teams draft an access control policy, fill the evidence tracker for one area, run a 30-minute tabletop, and role-play an auditor walkthrough of one control.
 
 ## Exercises that work well in a room
 
 - **Spot the weak control.** Show five control statements, some vague ("access is reviewed regularly"), some good. Teams fix the vague ones and name the four parts.
-- **Evidence sorting.** Hand out printed examples of evidence (a cropped screenshot, a dated export, a chat message, a signed ticket). Teams sort them into would-pass and would-fail, and say why.
-- **Auditor role-play.** One person plays the auditor and asks for the population and three samples for one control. The team has to say where each would come from.
+- **Evidence sorting.** Hand out printed examples (a cropped screenshot, a dated export, a chat message, a signed ticket). Teams sort them into would-pass and would-fail, and say why.
+- **Auditor role-play.** One person plays the auditor and asks for the population and three samples for one control. The team says where each would come from.
 - **Tabletop in miniature.** "A customer emails to say their data is on a public forum." Ten minutes: who's called, who decides on customer notice, where the logs are.
 
-## Common questions
+## Common question
 
-- *Do we need a compliance platform?* No. It can save time collecting evidence once you have controls, but it can't decide your scope or run your access reviews. Start with this course and a spreadsheet, and buy a platform later if the evidence load justifies it.
-- *How much does the audit cost?* It varies by firm, scope, and report type. Get at least three quotes.
-- *Can we do it without a security person?* Yes, with a named owner who has real time. An operations or engineering lead can run a first report.
+*Can we do it without a security person?* Yes, with a named owner who has real time. An operations or engineering lead can run a first report. Cost and compliance platforms are covered in [module 1](../course/01-decide-why.md).
 
 ## After the workshop
 

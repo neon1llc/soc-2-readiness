@@ -27,7 +27,7 @@ description: "Review a vendor before signing and each year: what it touches, its
 
 ## What it expects of us
 
-List the complementary user entity controls from its report, and the control of ours that meets each.
+List the complementary user entity controls from its report and the control of ours that meets each.
 
 | Their expectation | Our control |
 |---|---|

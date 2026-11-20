@@ -3,7 +3,7 @@ title: Access review form
 description: "A quarterly access review for one system: the user list, keep or remove decisions, and the owner's sign-off."
 ---
 
-Copy this into a ticket for each in-scope system each quarter. Attach the exported user list.
+Copy this into a ticket for each in-scope system each quarter, with the exported user list attached.
 
 **System:** ______________________ **Quarter:** ________ **Owner:** ______________________
 

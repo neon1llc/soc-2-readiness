@@ -45,4 +45,4 @@ What stopped it, what fixed it, and how you confirmed systems were back to norma
 
 ## Sources
 
-- [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final), from NIST: incident response recommendations behind the incident report and tabletop guidance.
+- [NIST SP 800-61 Rev. 3](https://csrc.nist.gov/pubs/sp/800/61/r3/final), from NIST: incident response recommendations.

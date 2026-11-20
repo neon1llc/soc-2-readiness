@@ -21,7 +21,7 @@ You don't need a security background. You do need someone with real time to own 
 
 | Folder | What it holds |
 |---|---|
-| [`course/`](course/index.md) | Eight modules, each with a lesson, an exercise on your own company, and a check. About an hour each. |
+| [`course/`](course/index.md) | Eight modules, each with a lesson and an exercise on your own company. About an hour each. |
 | [`controls/`](controls/index.md) | A [controls map](controls/controls-map.md) of 44 starter controls with owners, frequency, and evidence, mapped to SOC 2 criteria and ISO 27001:2022. Also as [CSV](controls/controls.csv) for a spreadsheet. |
 | [`evidence/`](evidence/index.md) | Checklists by area: what the auditor will ask for, what good proof looks like, and the mistakes that cause exceptions. |
 | [`templates/`](templates/index.md) | A risk register, an evidence tracker, access and vendor review forms, an incident report, a policy set outline, and a system description outline. |

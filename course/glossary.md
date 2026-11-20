@@ -3,9 +3,9 @@ title: Glossary
 description: "The SOC 2 and audit words used in this course, in plain language."
 ---
 
-**Bridge letter.** A company's own letter covering the time between the end of its last report period and today, saying nothing material has changed.
+**Bridge letter.** The company's own letter covering the time between the end of its last report period and today, saying nothing material has changed.
 
-**Carve-out.** A way of treating a vendor in your report: the vendor is named, its controls aren't tested, and readers are pointed to the vendor's own report.
+**Carve-out.** Treating a vendor in your report by naming it, not testing its controls, and pointing readers to its own report.
 
 **Complementary user entity controls (CUECs).** Things a service provider expects its customers to do for the provider's controls to work.
 
@@ -17,7 +17,7 @@ description: "The SOC 2 and audit words used in this course, in plain language."
 
 **Exception.** A tested sample where the control didn't work as described. It appears in the report with management's response.
 
-**Management's assertion.** The company's written statement, included in the report, that its system description is accurate and its controls met the criteria.
+**Management's assertion.** The company's written statement in the report that its system description is accurate and its controls met the criteria.
 
 **Observation window.** The period a Type II report covers, usually three to twelve months.
 
@@ -39,5 +39,5 @@ description: "The SOC 2 and audit words used in this course, in plain language."
 
 ## Sources
 
-- [SOC suite of services](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services), from the AICPA: what SOC 1, SOC 2, and the other SOC reports are, and who issues them.
-- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against, cited here by ID.
+- [SOC suite of services](https://www.aicpa-cima.com/resources/landing/system-and-organization-controls-soc-suite-of-services), from the AICPA: what the SOC reports are and who issues them.
+- [2017 Trust Services Criteria, with revised points of focus (2022)](https://www.aicpa-cima.com/resources/download/2017-trust-services-criteria-with-revised-points-of-focus-2022), from the AICPA: the criteria SOC 2 reports measure against.

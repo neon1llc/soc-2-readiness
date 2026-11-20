@@ -7,6 +7,7 @@ SOC 2 Readiness releases use `v0.MINOR.PATCH` until the first complete release, 
 ### Changed
 - Course modules no longer open with an objectives line or close with a next-module link.
 - Tighter wording in the README, course, workshop guide, plan, and controls and evidence pages.
+- Course modules no longer end with check questions. Policy list, calendar summary, and Type I and II table in the course are shorter, and the evidence checklists, templates, glossary, and controls pages are tighter.
 
 ## v0.1.6 - 2026-11-19
 
