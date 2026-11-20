@@ -29,4 +29,4 @@ This plan assumes one owner with about eight hours a week, help from engineering
 - Controls are being written for what you plan to do "someday."
 - Evidence lives in personal inboxes and chat threads.
 
-If you see these, cut scope or move the date. Both beat starting a window you can't finish.
+Cut scope or move the date. Both beat starting a window you can't finish.

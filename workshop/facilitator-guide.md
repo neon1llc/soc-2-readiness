@@ -7,8 +7,6 @@ description: "Teach the SOC 2 Readiness course as a half-day workshop or a two-d
 
 **You'll need:** a projector, printed copies of the [controls map](../controls/controls-map.md) and [evidence checklists](../evidence/index.md), a laptop for each company team, and the [templates](../templates/index.md) shared ahead of time.
 
-**Tone:** practical. Cost and paperwork are the usual worries, so show teams how much they already do.
-
 ## Half-day format (4 hours)
 
 | Time | Segment | Material |
@@ -43,7 +41,7 @@ Day one covers modules 1 to 4 with the full exercises, ending with each team's o
 
 ## After the workshop
 
-Send each team the course links, their marked-up controls list, and the date they named. A check-in at 30 days helps teams keep going.
+Send each team the course links, their marked-up controls list, and the date they named. Check in at 30 days.
 
 ## Sources
 

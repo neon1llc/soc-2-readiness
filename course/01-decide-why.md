@@ -3,11 +3,9 @@ title: "1. Decide why, and which report"
 description: "Why you want SOC 2, whether it's the right answer yet, and how to choose between a Type I and a Type II report."
 ---
 
-**Objectives.** By the end of this module you can say in one paragraph why your company is pursuing SOC 2, pick a Type I or Type II report on purpose, and name a realistic date for the report.
-
 ## Why the reason matters
 
-SOC 2 takes sustained time from at least one person, and an audit firm charges a fee on top. Fees vary widely by firm, scope, and report type, so get quotes before you commit. Without a clear reason, scope creeps, nobody owns the work, and it stalls in a busy quarter.
+SOC 2 takes sustained time from at least one person, plus an audit firm's fee. Fees vary widely by firm, scope, and report type, so get quotes first. Without a clear reason, scope creeps, nobody owns the work, and it stalls in a busy quarter.
 
 The common reasons:
 
@@ -27,12 +25,12 @@ A lighter step can close the deal for now:
 
 ## Doing it with help
 
-You don't have to do all of this by hand. Pick the help that fits the gap:
+Pick the help that fits the gap:
 
 - **A compliance platform** (Vanta, Drata, and Secureframe are examples, not endorsements) connects to your cloud, identity, and ticketing tools and collects evidence automatically. It suits a team that already knows its controls and loses time gathering proof. It doesn't set your scope or run your reviews, and it adds a subscription cost.
 - **Your auditor's readiness assessment** tells you whether the design looks right to the firm that may issue the report. Use it before you start a Type II window.
 - **A consultant or virtual CISO** helps if nobody on the team has done this before.
-- **The AICPA's own guidance**, linked under Sources, is the authority on what the report covers. This course is a way to prepare, and doesn't replace any of these.
+- **The AICPA's own guidance**, linked under Sources, is the authority on what the report covers. This course prepares you and replaces none of these.
 
 ## Type I or Type II
 
@@ -61,15 +59,13 @@ On one page, answer:
 4. The date you want the report in hand, and the date the observation window would have to start to make it.
 5. Who owns the work, and what they will stop doing to make time.
 
-Share the page with leadership and get a yes. That is your first evidence for control [GOV-01](../controls/controls-map.md#governance).
+Get leadership's yes on the page. That is your first evidence for control [GOV-01](../controls/controls-map.md#governance).
 
 ## Check
 
 1. What's the difference between a Type I and a Type II report?
 2. Name two cases where something lighter than SOC 2 could close a deal.
 3. Why does the reason you write down affect scope?
-
-Next: [2. Draw the boundary](02-scope.md).
 
 ## Sources
 

@@ -3,15 +3,13 @@ title: "5. Policies people read"
 description: "Write a short, honest policy set that matches what your company does, get it approved, and get everyone to acknowledge it."
 ---
 
-**Objectives.** By the end of this module you can list the policies a first SOC 2 report needs, write them short enough that staff read them, and set up approval, publication, and acknowledgment.
-
 ## What policies are for
 
 A policy says what the company requires. Controls show it happens. Auditors read your policies first, then test whether your controls match. The most common problem is a downloaded template promising things the company has never done.
 
 ## The set you need
 
-A small company can usually cover SOC 2 with about ten documents. Combining several into one handbook is fine.
+A small company can usually cover SOC 2 with about ten documents, and combining several into one handbook is fine.
 
 | Policy | Says |
 |---|---|
@@ -53,8 +51,6 @@ Draft the access control and incident response policies first, because they shap
 1. What's the most common policy problem auditors find?
 2. Why state rules instead of tools?
 3. What four things go at the top of each policy?
-
-Next: [6. Evidence that holds up](06-evidence.md).
 
 ## Sources
 

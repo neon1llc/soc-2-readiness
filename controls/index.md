@@ -19,7 +19,7 @@ The [controls map](controls-map.md) is generated from [controls.csv](controls.cs
 
 ## How the references work
 
-A reference means the control is a reasonable way to help meet that criterion or Annex A control. It doesn't mean the control alone satisfies it, and auditors judge sufficiency for your situation. The criteria and the standard are described in our own words here. Read the AICPA's Trust Services Criteria and ISO/IEC 27001 themselves before you rely on a mapping.
+A reference means the control is a reasonable way to help meet that criterion or Annex A control. It doesn't mean the control alone satisfies it, and auditors judge sufficiency for your situation. Read the AICPA's Trust Services Criteria and ISO/IEC 27001 themselves before you rely on a mapping.
 
 ## Making it yours
 

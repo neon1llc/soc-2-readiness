@@ -3,13 +3,11 @@ title: "3. Find your real risks"
 description: "Run a first risk assessment in an afternoon: what could go wrong, how likely it is, how bad it would be, and who owns each risk."
 ---
 
-**Objectives.** By the end of this module you can run a risk assessment with your team, score each risk the same way every time, and record a treatment and an owner for the ones that matter.
-
 ## Why auditors care
 
 SOC 2 expects your controls to answer your risks. Without a record of how you decided what could go wrong, an auditor can't tell whether your controls are the right ones. The risk assessment comes first, because the other controls refer back to it (controls [RISK-01 and RISK-02](../controls/controls-map.md#risk)).
 
-It doesn't need to be elaborate. A spreadsheet with honest rows beats a heat map nobody revisits.
+A spreadsheet with honest rows beats a heat map nobody revisits.
 
 ## A simple, repeatable method
 
@@ -46,8 +44,6 @@ Copy the [risk register template](../templates/risk-register.csv). Fill in at le
 1. Name the four treatments.
 2. Why write down what each score means?
 3. What two events should trigger a new assessment before the year is up?
-
-Next: [4. Write controls you can keep](04-controls.md).
 
 ## Sources
 

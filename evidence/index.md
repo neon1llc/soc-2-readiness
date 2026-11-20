@@ -17,4 +17,4 @@ One checklist per area of the [controls map](../controls/controls-map.md): what 
 | Continuity and backups | [continuity.md](continuity.md) |
 | Vendors and data | [vendors-and-data.md](vendors-and-data.md) |
 
-Tick each box when the evidence for the whole window is filed where your [evidence tracker](../templates/evidence-tracker.csv) says it lives.
+Tick a box when the evidence for the whole window is filed where your [evidence tracker](../templates/evidence-tracker.csv) says it lives.

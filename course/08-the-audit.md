@@ -3,8 +3,6 @@ title: "8. The audit, and after"
 description: "Choose an auditor, prepare for fieldwork, read your report the way customers will, and keep it current."
 ---
 
-**Objectives.** By the end of this module you can shortlist and choose an audit firm, prepare your team for fieldwork, understand each section of the report, and plan what comes after the first one.
-
 ## Choosing an auditor
 
 Only a licensed CPA firm can issue a SOC 2 report. Firms vary in price, depth, and how well they understand small cloud companies. Talk to at least three, and ask:
@@ -57,8 +55,6 @@ Read it as a customer's security team will, looking for exceptions, scope gaps, 
 1. Why does a firm that designs your controls create a problem when it also audits them?
 2. What are the main parts of a SOC 2 report?
 3. What does a bridge letter do, and who writes it?
-
-Keep the [calendar](../plan/observation-calendar.md) running, and return to [module 3](03-risk.md) each year when the risk assessment is due.
 
 ## Sources
 

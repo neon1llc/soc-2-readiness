@@ -4,7 +4,7 @@
 
 From [neon1](https://neon1.tech). *1 is glad to be of service.*
 
-**Status:** the scope is stable. This repository gets accuracy and source updates, and no new modules for now.
+**Status:** stable. Accuracy and source updates only, no new modules for now.
 
 ---
 
@@ -21,7 +21,7 @@ You don't need a security background. You do need someone with real time to own 
 
 | Folder | What it holds |
 |---|---|
-| [`course/`](course/index.md) | Eight modules, each with objectives, a lesson, an exercise on your own company, and a check. About an hour each. |
+| [`course/`](course/index.md) | Eight modules, each with a lesson, an exercise on your own company, and a check. About an hour each. |
 | [`controls/`](controls/index.md) | A [controls map](controls/controls-map.md) of 44 starter controls with owners, frequency, and evidence, mapped to SOC 2 criteria and ISO 27001:2022. Also as [CSV](controls/controls.csv) for a spreadsheet. |
 | [`evidence/`](evidence/index.md) | Checklists by area: what the auditor will ask for, what good proof looks like, and the mistakes that cause exceptions. |
 | [`templates/`](templates/index.md) | A risk register, an evidence tracker, access and vendor review forms, an incident report, a policy set outline, and a system description outline. |
@@ -34,15 +34,15 @@ You don't need a security background. You do need someone with real time to own 
 2. Copy the [controls CSV](controls/controls.csv) and the [evidence tracker](templates/evidence-tracker.csv) into your own spreadsheet.
 3. Follow the [90-day plan](plan/90-day-plan.md), taking one module a week.
 
-New to SOC 2? Read the [SOC 2 track in Ready, Secure, Go](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2) first. SOC 2 Readiness is the hands-on part: the work, the forms, and the evidence.
+New to SOC 2? Start with the [SOC 2 track in Ready, Secure, Go](https://github.com/neon1llc/ready-secure-go/tree/main/content/tracks/soc2). This repository is the hands-on part.
 
 ## Growing past SOC 2
 
-The controls map carries ISO 27001:2022 references next to the SOC 2 criteria, so the same controls can grow into an ISO 27001 program. ISO adds a formal management system (scope statement, risk treatment plan, statement of applicability, internal audit, and management review), which [module 8](course/08-the-audit.md#after-the-report) touches on.
+The controls map carries ISO 27001:2022 references beside the SOC 2 criteria, so the same controls can grow into an ISO 27001 program. [Module 8](course/08-the-audit.md#after-the-report) covers what ISO adds.
 
 ## What this isn't
 
-SOC 2 Readiness is readiness training, not audit or legal advice. It helps a team prepare, and it can't promise an audit result or that an auditor will accept your evidence. A compliance platform, a consultant, or your auditor's readiness assessment may suit you better if you lack time or experience. [Module 1](course/01-decide-why.md#doing-it-with-help) says when. Only a licensed CPA firm can issue a SOC 2 report, and the opinion in it is the auditor's. SOC 2 and the Trust Services Criteria are from the AICPA, and ISO/IEC 27001 is published by ISO and IEC. Both are described here in our own words and cited by ID only. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
+This is readiness training, not audit or legal advice. It can't promise an audit result or that an auditor will accept your evidence. A compliance platform, a consultant, or your auditor's readiness assessment may suit you better if you lack time or experience, and [module 1](course/01-decide-why.md#doing-it-with-help) says when. Only a licensed CPA firm can issue a SOC 2 report, and the opinion in it is the auditor's. SOC 2 and the Trust Services Criteria are from the AICPA, and ISO/IEC 27001 is published by ISO and IEC. Both are described here in our own words and cited by ID only. See [ATTRIBUTIONS.md](ATTRIBUTIONS.md).
 
 ## Checking a change
 
@@ -55,7 +55,7 @@ node tools/build-map.mjs    # rebuild controls-map.md after editing controls.csv
 
 | What | License | What it means |
 |---|---|---|
-| Written material (everything except `tools/` and `.github/`) | [CC BY-SA 4.0](LICENSE) | Share it, teach from it, adapt it, even commercially. Credit it as *"Based on SOC 2 Readiness by neon1 (neon1.tech), CC BY-SA 4.0"* and share your changes under the same license. |
+| Written material (everything except `tools/` and `.github/`) | [CC BY-SA 4.0](LICENSE) | Share, teach from, and adapt it, even commercially. Credit it as *"Based on SOC 2 Readiness by neon1 (neon1.tech), CC BY-SA 4.0"* and share changes under the same license. |
 | Code (`tools/`, `.github/`) | [MIT](LICENSE-CODE) | Use it for anything, keeping the copyright notice. |
 | The SOC 2 Readiness and neon1 names and the neon1 logo | Reserved | Not covered by either license. See [TRADEMARK.md](TRADEMARK.md). |
 

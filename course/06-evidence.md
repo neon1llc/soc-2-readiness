@@ -3,8 +3,6 @@ title: "6. Evidence that holds up"
 description: "What auditors accept as proof, how they sample, and how to collect evidence once instead of scrambling at the end."
 ---
 
-**Objectives.** By the end of this module you can tell good evidence from weak, explain how an auditor samples a population, and set up an evidence tracker that fills itself as the work happens.
-
 ## What makes evidence good
 
 An auditor needs to see that a control happened, when, on which system, and by whom. Good evidence is:
@@ -54,8 +52,6 @@ Copy the evidence tracker. For each control, fill in the expected instances for 
 1. What's a population, and why must it be complete?
 2. Why does a missed quarterly control show up so easily?
 3. What turns an exception into a qualified opinion?
-
-Next: [7. Run it all year](07-operate.md).
 
 ## Sources
 

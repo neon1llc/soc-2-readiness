@@ -3,8 +3,6 @@ title: "2. Draw the boundary"
 description: "Choose the system, the criteria, the people, and the vendors your report covers, and handle the providers you rely on."
 ---
 
-**Objectives.** By the end of this module you can write a scope statement, choose which Trust Services Criteria to include, list the vendors your system depends on, and decide how the report treats them.
-
 ## Scope is a product decision
 
 Your report describes one **system**: the service your customers buy, plus the people, processes, software, infrastructure, and data that deliver it. Everything inside the boundary gets tested. Customers will notice what you leave outside.
@@ -48,8 +46,6 @@ Using the [system description outline](../templates/system-description-outline.m
 1. What does "carve-out" mean, and what do you owe the auditor when you use it?
 2. When should Availability be in scope?
 3. Why keep the first scope small?
-
-Next: [3. Find your real risks](03-risk.md).
 
 ## Sources
 

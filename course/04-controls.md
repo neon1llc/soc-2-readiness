@@ -3,8 +3,6 @@ title: "4. Write controls you can keep"
 description: "Turn the starter controls map into your own list: testable statements with an owner, a frequency, and the proof each leaves behind."
 ---
 
-**Objectives.** By the end of this module you can write a control an auditor can test, cut the starter map down to what your company does, and spot a control that will fail before the auditor does.
-
 ## What a control is
 
 A control is something the company does, on a schedule or on every event, that leaves a record. A good one reads like this:
@@ -20,7 +18,7 @@ It has four parts:
 | **Frequency** | Every quarter |
 | **Evidence** | A signed ticket |
 
-A weak one reads "Access is reviewed regularly." Who reviews? How often? What proves it happened? An auditor will ask all three, and answers that change from quarter to quarter produce an exception.
+A weak one reads "Access is reviewed regularly." Who reviews? How often? What proves it? An auditor will ask all three, and answers that change from quarter to quarter produce an exception.
 
 ## Automated and manual controls
 
@@ -53,8 +51,6 @@ Copy [controls.csv](../controls/controls.csv) into a spreadsheet. For each row, 
 1. Name the four parts of a control.
 2. Why do manual controls fail more often, and what reduces that?
 3. What's wrong with "Logs are monitored regularly"?
-
-Next: [5. Policies people read](05-policies.md).
 
 ## Sources
 

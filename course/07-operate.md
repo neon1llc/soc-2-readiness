@@ -3,8 +3,6 @@ title: "7. Run it all year"
 description: "Keep controls running through the observation window and beyond: a shared calendar, backup owners, and the yearly exercises auditors expect."
 ---
 
-**Objectives.** By the end of this module you can set up a calendar for every recurring control, run a quarterly access review and a yearly tabletop, and handle the people and system changes that break controls.
-
 ## The window is the test
 
 During a Type II observation window, every control has to run every time. The work is easy to forget, and the people who set it up move on. Schedule it, give it an owner, and keep it visible.
@@ -50,8 +48,6 @@ Create the shared calendar with every recurring control, each with an owner and 
 1. What's the most common access review finding?
 2. Name three pieces of tabletop evidence.
 3. What do you do when a control owner leaves mid-window?
-
-Next: [8. The audit, and after](08-the-audit.md).
 
 ## Sources
 
