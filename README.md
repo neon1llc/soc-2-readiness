@@ -2,7 +2,7 @@
 
 **Hands-on SOC 2 readiness training for small and growing companies.** A course, a controls map, evidence checklists, and templates that help a team prepare for a first SOC 2 audit without buying a compliance platform first.
 
-From [neon1](https://neon1.tech). *1 is glad to be of service.*
+From [neon1](https://neon1.tech).
 
 **Status:** stable. Accuracy and source updates only, no new modules for now.
 
